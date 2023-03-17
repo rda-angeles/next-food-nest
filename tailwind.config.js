@@ -20,6 +20,10 @@ module.exports = {
       fontFamily: {
         "f-primary": "'Poppins', sans-serif",
       },
+
+      gridTemplateColumns:{
+        fluid: "repeat(auto-fit, minmax(14rem, 1fr))",
+      }
     },
   },
   plugins: [],

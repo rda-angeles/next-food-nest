@@ -1,7 +1,10 @@
-import React from "react";
+import Popular from "@/components/Foods/Popular/pages";
 
-const index = () => {
-  return <div>Foods</div>;
+const Foods = () => {
+  return (
+    <div>
+      <Popular />
+    </div>
+  );
 };
-
-export default index;
+export default Foods;

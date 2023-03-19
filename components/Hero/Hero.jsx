@@ -2,6 +2,7 @@ import Button from "@mui/material/Button";
 import LocalDiningIcon from "@mui/icons-material/LocalDining";
 import Explore from "./Explore";
 import Services from "./Services";
+import Popular from "../Foods/Popular/Popular";
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
               src="/images/logo-1.svg"
               alt="FoodNest Logo"
               style={{
-                filter:"invert(1)"
+                filter: "invert(1)",
               }}
             />
           </div>
@@ -30,7 +31,6 @@ const Hero = () => {
           <Button
             variant="outlined"
             sx={{
-              backgroundColor: "#1fab89",
               color: "white",
               border: "1px solid #1fab89",
               ":hover": {
@@ -39,7 +39,7 @@ const Hero = () => {
               },
             }}
           >
-            <a href="/foods">Find your recipe!</a>
+            <a href="/recipes">Find your recipe!</a>
             <LocalDiningIcon sx={{ marginLeft: ".5rem", fontSize: "1.3rem" }} />
           </Button>
         </div>
@@ -48,6 +48,8 @@ const Hero = () => {
 
       <Services />
       {/* Explore */}
+
+      <Popular />
 
       <Explore />
     </div>

@@ -11,10 +11,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "c-primary": "#1fab89",
-        "c-secondary": "#62d2a2",
-        "c-tertiary": "#9df3c4",
-        "c-quarternary": "#d7fbe8",
+        "c-primary": "#006F60",
+        "c-secondary": "#01907E",
+        "c-tertiary": "#919190",
+        "c-quarternary": "#3A3A3B",
+        "c-quinary": "#62d2a2",
       },
 
       fontFamily: {
@@ -22,7 +23,7 @@ module.exports = {
       },
 
       gridTemplateColumns:{
-        fluid: "repeat(auto-fit, minmax(14rem, 1fr))",
+        fluid: "repeat(auto-fit, minmax(20rem, 1fr))",
       }
     },
   },

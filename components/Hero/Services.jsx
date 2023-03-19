@@ -12,7 +12,7 @@ const Services = () => {
         <KitchenIcon
           sx={{
             fontSize: "4.5rem",
-            color: "#1fab89",
+            color: "white",
           }}
         />
       ),
@@ -25,7 +25,7 @@ const Services = () => {
         <MenuBookIcon
           sx={{
             fontSize: "4.5rem",
-            color: "#1fab89",
+            color: "white",
           }}
         />
       ),
@@ -38,7 +38,7 @@ const Services = () => {
         <FlagIcon
           sx={{
             fontSize: "4.5rem",
-            color: "#1fab89",
+            color: "white",
           }}
         />
       ),
@@ -63,9 +63,12 @@ const Services = () => {
 
         <div className="services-content  grid md:grid-cols-3 place-items-center text-center gap-10">
           {services.map((service) => (
-            <div key={service.id} className="bg-c-quarternary rounded-xl max-w-xs px-[2rem] py-[4rem]">
+            <div
+              key={service.id}
+              className="bg-c-secondary rounded-xl max-w-xs px-[2rem] py-[4rem] text-white"
+            >
               {service.icon}
-              <h3 className="mt-5 mb-3 relative">{service.serviceName}</h3>
+              <h3 className="mt-5 mb-3 relative ">{service.serviceName}</h3>
               <p className="text-sm">{service.desc}</p>
             </div>
           ))}

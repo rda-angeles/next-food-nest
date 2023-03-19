@@ -7,6 +7,12 @@ const Header = () => {
   const [navShadow, setNavShadow] = useState("");
   const [iconWhite, setIconWhite] = useState("invert(0)");
 
+  const navLinks = [
+    { id: 1, navLink: "Home", path: "/", style: "" },
+    { id: 2, navLink: "Recipes", path: "/recipes", style: "" },
+    { id: 3, navLink: "Gallery", path: "/gallery", style: "" },
+  ];
+  
   const listenScrollEvent = () => {
     if (window.scrollY > 10) {
       setNavColor("#1fab89");
@@ -47,9 +53,7 @@ const Header = () => {
         {/* ===================================== On Larger Devices ===================================== */}
 
         <motion.div whileHover={{ scale: 1.2 }} className="cursor-pointer">
-          <AccountCircleIcon
-            sx={{ fontSize: "2rem", color: "black", filter: iconWhite }}
-          />
+          <AccountCircleIcon sx={{ fontSize: "2rem", color: "white" }} />
         </motion.div>
 
         {/* ===================================== On Mobile Devices ===================================== */}

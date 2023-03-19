@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "@splidejs/react-splide/css";
 @import "./variables";
 @import "./layout";
 @import "./typography";
@@ -9,3 +10,4 @@
 @import "./tabs";
 
 @import "./hero/services.scss";
+@import "./recipes/recipes.scss";

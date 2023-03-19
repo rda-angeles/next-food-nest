@@ -1,16 +1,16 @@
 @import "../variables";
 
-.services-content {
-  h3 {
-    &::before {
-      position: absolute;
-      content: "";
-      background-color: $c-primary;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 1.5rem;
-      height: 0.1rem;
-    }
-  }
-}
+// .services-content {
+//   h3 {
+//     &::before {
+//       position: absolute;
+//       content: "";
+//       background-color: $c-white;
+//       bottom: 0;
+//       left: 50%;
+//       transform: translateX(-50%);
+//       width: 1.5rem;
+//       height: 0.1rem;
+//     }
+//   }
+// }
